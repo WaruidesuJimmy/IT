@@ -1,0 +1,160 @@
+
+body {
+		background-image: url(../images/ford-bg.png);
+		background-attachment: fixed;
+		/*background-repeat: no-repeat; */
+		color: #ffffff;
+		font-family: Verdana, Arial, Helvetica, sans-serif;
+		font-size: 12pt;
+		text-align: center;
+	}
+
+h2 { 	color: #ff0000;
+		font-size: 18pt;
+		/*text-align: center;*/ /*No need, already in body*/
+	}
+	
+h3 {	color: #032274;
+		font-size: 16pt;
+	}
+	
+#mainContainer 
+{
+	width: 960px;
+	margin-left:auto;
+	margin-right: auto;
+	background-color: #ffffff;
+}
+
+#topContainer
+{
+	background-color: #ff00ff;
+}
+
+#logo
+{
+	height: 185px; /*plus 20px = 205*/
+	padding: 10px;
+	width: 220px;
+	/*background-color: #bb00bb;*/
+	float:left;
+	/*Gradient from https://cssgradient.io/ */
+	background: rgb(0,94,208);
+	background: linear-gradient(180deg, rgba(0,94,208,1) 0%, rgba(3,34,116,1) 100%);
+}
+
+#header
+{
+	height: 185px;
+	padding: 10px;
+	width:700px;
+	margin-left: 240px;
+	/*background-color: #ff0000;*/
+	background: rgb(0,94,208);
+	background: linear-gradient(180deg, rgba(0,94,208,1) 0%, rgba(3,34,116,1) 100%);
+}
+
+#menu
+{
+	background-color: #bbbb11;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	height: 32px;
+	/*background-color: #ff0000;*/
+	background: rgb(3,34,116);
+	background: linear-gradient(180deg, rgba(3,34,116,1) 0%, rgba(0,94,208,1) 100%);
+}
+
+#contentContainer
+{
+	background-color: #00ffff;
+}
+
+#contentLeft
+{
+	background-color: #aaaaff;
+	float:left;
+	height: 840px;
+	width: 720px; /*9 cols x 80px each*/
+}
+
+#contentRightUpper
+{
+	background-color: #ccffcc;
+	height: 398px; /*plus 20px padding=420px, plus border*/
+	padding: 10px;
+	border: 1px solid #002172;
+	width: 218px; /*plus 20px padding = 240px*/
+	margin-left: 720px;
+}
+
+#contentRightLower
+{
+	background-color: #ffff22;
+	height: 398px; /*plus 20px padding=420px, plus border*/
+	padding: 10px;
+	border: 1px solid #002172;
+	width: 218px; /*plus 20px padding = 240px*/
+	margin-left: 720px;
+}
+
+#informationContainer
+{
+	background-color: #00ff00;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	/*Gradient from https://cssgradient.io/ */
+	background: rgb(0,94,208);
+	background: linear-gradient(180deg, rgba(0,94,208,1) 0%, rgba(3,34,116,1) 100%);
+}
+
+#informationLeft{
+	height:150px; /*+ 70px padding*/
+	padding:50px 20px 20px 20px; /* T R B L*/
+	float:left;
+	
+	width: 280px;
+}
+
+#informationCentre{
+	height:200px; /*+ 20px padding*/
+	padding-top: 10px;
+	padding-bottom:10px;
+	margin-left:320px;
+	margin-right:320px;
+}
+
+#informationRight{
+	height:150px; /*+ 70px padding*/
+	padding:50px 20px 20px 20px; /* T R B L*/
+	float:right;
+	width: 280px;
+}
+
+
+#footer
+{
+	background-color: #eeeeee;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	height: 100px;
+	margin-top: 2px;
+	color: #032274;
+}
+
+#footer p { color:#002172;}
+
+#fb-logo {float:right;}
+
+#nsa-logo {float:left;}
+
+
+
+
+
+
+
+
+
+
+
